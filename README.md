@@ -33,3 +33,14 @@ def add_length(str_):
 def billboard(name, price=30):
     return sum(price for letter in name)
 ```
+
+###Opposites Attract
+
+- Module: *opposites.py*
+- Tests: *test_opposites.py*
+- Link (https://www.codewars.com/kata/opposites-attract/, Code Wars: Opposites Attract)
+
+```python
+def lovefunc( flower1, flower2 ):
+    return (flower1+flower2)%2
+```
