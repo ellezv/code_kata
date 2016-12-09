@@ -78,3 +78,13 @@ def title_case(title, minor_words=''):
     minor_words = minor_words.lower().split()
     return ' '.join([word if word in minor_words else word.capitalize() for word in title])
 ```
+
+###Jaden Casing Strings
+- Module: *jaden_case.py*
+- Tests: *test_jaden_case.py*
+- Link: (https://www.codewars.com/kata/jaden-casing-strings/, Code Wars: Jaden Casing Strings - 7kyu)
+
+```python
+def toJadenCase(string):        
+    return " ".join(w.capitalize() for w in string.split())
+```
