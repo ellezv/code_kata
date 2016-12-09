@@ -9,7 +9,7 @@ setup(
     author="Maelle Vance",
     author_email="maellevance@gmail.com",
     license="MIT",
-    py_modules=['sum_positives', 'add_length', 'billboard', 'opposites', 'is_vowel', 'get_average'],
+    py_modules=['sum_positives', 'add_length', 'billboard', 'opposites', 'is_vowel', 'get_average', 'title_case'],
     package_dir={'': 'src'},
     install_requires=['numpy', 'tox'],
     extras_require={

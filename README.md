@@ -16,7 +16,7 @@ def positive_sum(arr):
 
 - Module: *add_length.py*
 - Tests: *test_add_length.py*
-- Link: (https://www.codewars.com/kata/add-length, Code Wars: Add Length)
+- Link: (https://www.codewars.com/kata/add-length, Code Wars: Add Length - 8 Kyu)
 
 ```python
 def add_length(str_):
@@ -27,7 +27,7 @@ def add_length(str_):
 
 - Module: *billboard.py*
 - Tests: *test_billboard.py*
-- Link: (https://www.codewars.com/kata/name-on-billboard, Code Wars: Name on Billboard)
+- Link: (https://www.codewars.com/kata/name-on-billboard, Code Wars: Name on Billboard - 8 Kyu)
 
 ```python
 def billboard(name, price=30):
@@ -38,7 +38,7 @@ def billboard(name, price=30):
 
 - Module: *opposites.py*
 - Tests: *test_opposites.py*
-- Link: (https://www.codewars.com/kata/opposites-attract/, Code Wars: Opposites Attract)
+- Link: (https://www.codewars.com/kata/opposites-attract/, Code Wars: Opposites Attract - 8 Kyu)
 
 ```python
 def lovefunc( flower1, flower2 ):
@@ -48,7 +48,7 @@ def lovefunc( flower1, flower2 ):
 ###Is There a Vowel in There?
 - Module: *is_vowel.py*
 - Tests: *test_is_vowel.py*
-- Link:(https://www.codewars.com/kata/is-there-a-vowel-in-there, Code Wars: Is There a Vowel in There?)
+- Link:(https://www.codewars.com/kata/is-there-a-vowel-in-there, Code Wars: Is There a Vowel in There? - 8 Kyu)
 
 ```python
 def is_vow(s):
@@ -59,10 +59,22 @@ def is_vow(s):
 ###Get Average
 - Module: *get_average.py*
 - Tests: *test_is_average.py*
-- Link: (https://www.codewars.com/kata/get-the-mean-of-an-array/, Code Wars: Get Mean of an Array)
+- Link: (https://www.codewars.com/kata/get-the-mean-of-an-array/, Code Wars: Get Mean of an Array - 8 Kyu)
 
 ```python
 def get_average(marks):
     return sum(marks) / len(marks)
 
+```
+
+###Title Case
+- Module : *title_case.py*
+- Tests: *test_title_case.py*
+- Link: (https://www.codewars.com/kata/title-case/, Code Wars: Title Case - 6 Kyu)
+
+```python
+def title_case(title, minor_words=''):
+    title = title.capitalize().split()
+    minor_words = minor_words.lower().split()
+    return ' '.join([word if word in minor_words else word.capitalize() for word in title])
 ```
