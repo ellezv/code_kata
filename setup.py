@@ -9,7 +9,7 @@ setup(
     author="Maelle Vance",
     author_email="maellevance@gmail.com",
     license="MIT",
-    py_modules=['sum_positives'],
+    py_modules=['sum_positives', 'add_length'],
     package_dir={'': 'src'},
     install_requires=['tox'],
     extras_require={
