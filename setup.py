@@ -9,9 +9,9 @@ setup(
     author="Maelle Vance",
     author_email="maellevance@gmail.com",
     license="MIT",
-    py_modules=['sum_positives', 'add_length'],
+    py_modules=['sum_positives', 'add_length', 'billboard'],
     package_dir={'': 'src'},
-    install_requires=['tox'],
+    install_requires=['numpy', 'tox'],
     extras_require={
         "test": ["pytest", "pytest-watch", "pytest-cov"]
     },
