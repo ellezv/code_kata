@@ -55,3 +55,14 @@ def is_vow(s):
     vowels = {97: 'a', 111: 'o', 117: 'u', 101: 'e', 105: 'i'}
     return [vowels.get(a, a) for a in s]
 ```
+
+###Get Average
+- Module: *get_average.py*
+- Tests: *test_is_average.py*
+- Link: (https://www.codewars.com/kata/get-the-mean-of-an-array/, Code Wars: Get Mean of an Array)
+
+```python
+def get_average(marks):
+    return sum(marks) / len(marks)
+
+```
