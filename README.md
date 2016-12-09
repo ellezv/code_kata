@@ -38,9 +38,20 @@ def billboard(name, price=30):
 
 - Module: *opposites.py*
 - Tests: *test_opposites.py*
-- Link (https://www.codewars.com/kata/opposites-attract/, Code Wars: Opposites Attract)
+- Link: (https://www.codewars.com/kata/opposites-attract/, Code Wars: Opposites Attract)
 
 ```python
 def lovefunc( flower1, flower2 ):
     return (flower1+flower2)%2
+```
+
+###Is There a Vowel in There?
+- Module: *is_vowel.py*
+- Tests: *test_is_vowel.py*
+- Link:(https://www.codewars.com/kata/is-there-a-vowel-in-there, Code Wars: Is There a Vowel in There?)
+
+```python
+def is_vow(s):
+    vowels = {97: 'a', 111: 'o', 117: 'u', 101: 'e', 105: 'i'}
+    return [vowels.get(a, a) for a in s]
 ```
