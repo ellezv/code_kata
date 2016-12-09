@@ -3,9 +3,9 @@ This repo contains my solutions to various katas from codewars.com
 
 ##Sum of Positive:  
 
--Module: *sum_positives.py*    
--Tests: *test_sum_positives.py*  
--Link: (https://www.codewars.com/kata/sum-of-positive/, Code Wars: Sum of Positive)
+- Module: *sum_positives.py*    
+- Tests: *test_sum_positives.py*  
+- Link: (https://www.codewars.com/kata/sum-of-positive/, Code Wars: Sum of Positive)
 
 ```python
 def positive_sum(arr):
@@ -14,9 +14,9 @@ def positive_sum(arr):
 
 ###Add Length:
 
--Module: *add_length.py*
--Tests: *test_add_length.py*
--Link: (https://www.codewars.com/kata/add-length, Code Wars: Add Length)
+- Module: *add_length.py*
+- Tests: *test_add_length.py*
+- Link: (https://www.codewars.com/kata/add-length, Code Wars: Add Length)
 
 ```python
 def add_length(str_):
@@ -25,9 +25,9 @@ def add_length(str_):
 
 ###Name on Billboard
 
--Module: *billboard.py*
--Tests: *test_billboard.py*
--Link: (https://www.codewars.com/kata/name-on-billboard, Code Wars: Name on Billboard)
+- Module: *billboard.py*
+- Tests: *test_billboard.py*
+- Link: (https://www.codewars.com/kata/name-on-billboard, Code Wars: Name on Billboard)
 
 ```python
 def billboard(name, price=30):
