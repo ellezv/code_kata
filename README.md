@@ -1,4 +1,4 @@
-# code_kata
+# Code Kata
 This repo contains my solutions to various katas from codewars.com
 
 ##Sum of Positive:  
@@ -21,4 +21,15 @@ def positive_sum(arr):
 ```python
 def add_length(str_):
     return ["{} {}".format(i, len(i)) for i in str_.split(' ')]
+```
+
+###Name on Billboard
+
+-Module: *billboard.py*
+-Tests: *test_billboard.py*
+-Link: (https://www.codewars.com/kata/name-on-billboard, Code Wars: Name on Billboard)
+
+```python
+def billboard(name, price=30):
+    return sum(price for letter in name)
 ```
