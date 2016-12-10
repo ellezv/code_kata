@@ -99,3 +99,12 @@ def pig_it(text):
     lst = text.split()
     return ' '.join( [word[1:] + word[:1] + 'ay' if word.isalpha() else word for word in lst])
 ```
+
+###How Many Lightsabers Do You Own - 8kyu
+- Module: *lightsaber.py*
+- Tests: *test_lightsaber.py*
+- Link: (https://www.codewars.com/kata/how-many-lightsabers-do-you-own/, Code Wars: How Many Lightsabers do you own)
+
+```def howManyLightsabersDoYouOwn(name=""):
+    return (18 if name=="Zach" else 0)
+```
