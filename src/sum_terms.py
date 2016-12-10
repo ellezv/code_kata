@@ -11,4 +11,4 @@ def series_sum(n):
         for num in range(n - 1):
             n = n - 1
             count += 1 / (3 * n + 1)
-        return "{0:.2f}".format(count)
+        return "%.2f" % count
