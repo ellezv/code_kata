@@ -105,6 +105,7 @@ def pig_it(text):
 - Tests: *test_lightsaber.py*
 - Link: (https://www.codewars.com/kata/how-many-lightsabers-do-you-own/, Code Wars: How Many Lightsabers do you own)
 
-```def howManyLightsabersDoYouOwn(name=""):
+```python
+def howManyLightsabersDoYouOwn(name=""):
     return (18 if name=="Zach" else 0)
 ```
