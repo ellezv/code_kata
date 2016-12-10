@@ -2,8 +2,7 @@
 
 
 def jaden_case(str_):
-    jaden_arr = []
-    for word in str_.split():
-        word = word.capitalize()
-        jaden_arr.append(word)
+    """Return a capitalized string."""
+    jaden_arr = [word.capitalize() for word in str_.split()]
     return ' '.join(jaden_arr)
+"""Test for jaden_case module"""
