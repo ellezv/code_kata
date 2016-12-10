@@ -5,50 +5,50 @@ This repo contains my solutions to various katas from codewars.com
 
 - Module: *sum_positives.py*    
 - Tests: *test_sum_positives.py*  
-- Link: (https://www.codewars.com/kata/sum-of-positive/, Code Wars: Sum of Positive)
+- Link: [Code Wars: Sum of Positive](https://www.codewars.com/kata/sum-of-positive/)
 
 ```python
 def positive_sum(arr):
     return sum(x for x in arr if x > 0)
 ```
 
-###Add Length - 8kyu
+##Add Length - 8kyu
 
 - Module: *add_length.py*
 - Tests: *test_add_length.py*
-- Link: (https://www.codewars.com/kata/add-length, Code Wars: Add Length)
+- Link: [Code Wars: Add Length](https://www.codewars.com/kata/add-length)
 
 ```python
 def add_length(str_):
     return ["{} {}".format(i, len(i)) for i in str_.split(' ')]
 ```
 
-###Name on Billboard 8kyu
+##Name on Billboard 8kyu
 
 - Module: *billboard.py*
 - Tests: *test_billboard.py*
-- Link: (https://www.codewars.com/kata/name-on-billboard, Code Wars: Name on Billboard)
+- Link:  [Code Wars: Name on Billboard](https://www.codewars.com/kata/name-on-billboard)
 
 ```python
 def billboard(name, price=30):
     return sum(price for letter in name)
 ```
 
-###Opposites Attract - 8kyu
+##Opposites Attract - 8kyu
 
 - Module: *opposites.py*
 - Tests: *test_opposites.py*
-- Link: (https://www.codewars.com/kata/opposites-attract/, Code Wars: Opposites Attract)
+- Link: [Code Wars: Opposites Attract](https://www.codewars.com/kata/opposites-attract/)
 
 ```python
 def lovefunc( flower1, flower2 ):
     return (flower1+flower2)%2
 ```
 
-###Is There a Vowel in There? - 8kyu
+##Is There a Vowel in There? - 8kyu
 - Module: *is_vowel.py*
 - Tests: *test_is_vowel.py*
-- Link:(https://www.codewars.com/kata/is-there-a-vowel-in-there, Code Wars: Is There a Vowel in There?)
+- Link:[Code Wars: Is There a Vowel in There?](https://www.codewars.com/kata/is-there-a-vowel-in-there)
 
 ```python
 def is_vow(s):
@@ -56,10 +56,10 @@ def is_vow(s):
     return [vowels.get(a, a) for a in s]
 ```
 
-###Get Average - 8kyu
+##Get Average - 8kyu
 - Module: *get_average.py*
 - Tests: *test_is_average.py*
-- Link: (https://www.codewars.com/kata/get-the-mean-of-an-array/, Code Wars: Get Mean of an Array)
+- Link: [Code Wars: Get Mean of an Array](https://www.codewars.com/kata/get-the-mean-of-an-array/)
 
 ```python
 def get_average(marks):
@@ -70,7 +70,7 @@ def get_average(marks):
 ###Title Case - 6kyu
 - Module : *title_case.py*
 - Tests: *test_title_case.py*
-- Link: (https://www.codewars.com/kata/title-case/, Code Wars: Title Case)
+- Link: [Code Wars: Title Case](https://www.codewars.com/kata/title-case/)
 
 ```python
 def title_case(title, minor_words=''):
@@ -79,20 +79,20 @@ def title_case(title, minor_words=''):
     return ' '.join([word if word in minor_words else word.capitalize() for word in title])
 ```
 
-###Jaden Casing Strings - 7kyu
+##Jaden Casing Strings - 7kyu
 - Module: *jaden_case.py*
 - Tests: *test_jaden_case.py*
-- Link: (https://www.codewars.com/kata/jaden-casing-strings/, Code Wars: Jaden Casing Strings)
+- Link: [Code Wars: Jaden Casing Strings](https://www.codewars.com/kata/jaden-casing-strings/)
 
 ```python
 def toJadenCase(string):        
     return " ".join(w.capitalize() for w in string.split())
 ```
 
-###Simple Pig Latin - 5kyu
+##Simple Pig Latin - 5kyu
 - Module: *simple_pig_latin.py*
 - Tests: *test_simple_pig_latin.py*
-- Link: (https://www.codewars.com/kata/simple-pig-latin/, Code Wars: Simple Pig Latin)
+- Link: [Code Wars: Simple Pig Latin](https://www.codewars.com/kata/simple-pig-latin/)
 
 ```python
 def pig_it(text):
@@ -100,10 +100,10 @@ def pig_it(text):
     return ' '.join( [word[1:] + word[:1] + 'ay' if word.isalpha() else word for word in lst])
 ```
 
-###How Many Lightsabers Do You Own - 8kyu
+##How Many Lightsabers Do You Own - 8kyu
 - Module: *lightsaber.py*
 - Tests: *test_lightsaber.py*
-- Link: (https://www.codewars.com/kata/how-many-lightsabers-do-you-own/, Code Wars: How Many Lightsabers do you own)
+- Link: [Code Wars: How Many Lightsabers do you own](https://www.codewars.com/kata/how-many-lightsabers-do-you-own/)
 
 ```python
 def howManyLightsabersDoYouOwn(name=""):
