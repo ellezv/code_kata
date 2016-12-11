@@ -4,7 +4,8 @@ import pytest
 
 STR_TABLE = [
     ['Pig latin is cool', 'igPay atinlay siay oolcay'],
-    ['This is my string', 'hisTay siay ymay tringsay']
+    ['This is my string', 'hisTay siay ymay tringsay'],
+    ['Pig ? latin is cool !', 'igPay ? atinlay siay oolcay !']
 ]
 
 
