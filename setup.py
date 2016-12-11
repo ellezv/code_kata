@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name="code katas",
-    description="An implmentation of various katas from codewars.com",
+    description="An implementation of various katas from codewars.com",
     version=0.1,
     author="Maelle Vance",
     author_email="maellevance@gmail.com",
@@ -23,8 +23,8 @@ setup(
         'sum_terms'
     ],
     package_dir={'': 'src'},
-    install_requires=['numpy', 'tox'],
+    install_requires=['numpy'],
     extras_require={
-        "test": ["pytest", "pytest-watch", "pytest-cov"]
+        "test": ["tox", "pytest", "pytest-watch", "pytest-cov"]
     },
 )
