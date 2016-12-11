@@ -109,3 +109,13 @@ def pig_it(text):
 def howManyLightsabersDoYouOwn(name=""):
     return (18 if name=="Zach" else 0)
 ```
+
+##Sum of nth Term of Series - 7kyu
+- Module : *sum_terms.py*
+- Tests: *test_sum_terms.py*
+- Link: [Code Wars: Sum of nth Term of Series](http://www.codewars.com/kata/sum-of-the-first-nth-term-of-series/)
+
+```python
+def series_sum(n):
+    return '{:.2f}'.format(sum(1.0/(3 * i + 1) for i in range(n)))
+```

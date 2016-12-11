@@ -5,7 +5,8 @@ import pytest
 BOOK_TABLE = [
     ['a clash of KINGS', 'a an the of', 'A Clash of Kings'],
     ['THE WIND IN THE WILLOWS', 'The In', 'The Wind in the Willows'],
-    ['the slow Regard of silent THINGS', 'of', 'The Slow Regard of Silent Things']
+    ['the slow Regard of silent THINGS', 'of', 'The Slow Regard of Silent Things'],
+    ['', '', '']
 ]
 
 

@@ -8,8 +8,8 @@ NUM_TABLE = [
 ]
 
 
-@pytest.mark.parametrize("result, input", NUM_TABLE)
-def test_is_vow(result, input):
+@pytest.mark.parametrize("result, lst", NUM_TABLE)
+def test_is_vow(result, lst):
     """Test the is_vow function."""
     from is_vowel import is_vow
-    assert is_vow(input) == result
+    assert is_vow(lst) == result
