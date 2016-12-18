@@ -6,7 +6,7 @@ If there is an unmatched open paren, the function will return 1.
 If there is an unmatched closed paren, it will return -1.
 If all parens are matched in the doubly linked list, it returns 0.
 """
-
+import sys
 
 class Node():
     """Instantiate a node."""
@@ -26,10 +26,15 @@ class Queue():
         self.head = None
         self.tail = None
         self.length = 0
-        if iter and hasattr(iter, "__iter__"):
-            for item in iter:
-                self.push(item)
-        elif iter:
+        if sys.version_info[0] == 2:
+            if iter and isinstance(iter, str):
+                for item in list(iter):
+                    self.push(item)
+        elif sys.version_info[0] == 3:
+            if iter and hasattr(iter, "__iter__"):
+                for item in iter:
+                    self.push(item)
+        else:
             raise TypeError
 
     def push(self, value=None):
