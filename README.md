@@ -119,3 +119,7 @@ def howManyLightsabersDoYouOwn(name=""):
 def series_sum(n):
     return '{:.2f}'.format(sum(1.0/(3 * i + 1) for i in range(n)))
 ```
+
+##Proper Parenthetics
+- Module: *proper_parenthetics.py*
+- Tests: *test_parenthetics.py*
