@@ -22,6 +22,7 @@ setup(
         'lightsaber',
         'sum_terms',
         'proper_parenthetics',
+        'sort_cards'
     ],
     package_dir={'': 'src'},
     install_requires=['numpy'],
