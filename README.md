@@ -119,7 +119,7 @@ def howManyLightsabersDoYouOwn(name=""):
     return (18 if name=="Zach" else 0)
 ```
 
-##Sum of nth Term of Series - 7kyu
+## Sum of nth Term of Series - 7kyu
 - Module : *sum_terms.py*
 - Tests: *test_sum_terms.py*
 - Link: [Code Wars: Sum of nth Term of Series](http://www.codewars.com/kata/sum-of-the-first-nth-term-of-series/)
@@ -130,7 +130,7 @@ def series_sum(n):
     return '{:.2f}'.format(sum(1.0/(3 * i + 1) for i in range(n)))
 ```
 
-##Proper Parenthetics
+## Proper Parenthetics
 - Module: *proper_parenthetics.py*
 - Tests: *test_parenthetics.py*
 
@@ -145,3 +145,8 @@ Interesting solution:
 def sort_cards(cards):
     return sorted(cards, key="A23456789TJQK".index)
 ```
+
+## Forbes Top 40
+- Module: *forbes.py*
+- Tests : *test_forbes.py*
+
