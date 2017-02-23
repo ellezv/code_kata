@@ -20,7 +20,8 @@ setup(
         'jaden_case',
         'simple_pig_latin',
         'lightsaber',
-        'sum_terms'
+        'sum_terms',
+        'proper_parenthetics',
     ],
     package_dir={'': 'src'},
     install_requires=['numpy'],
