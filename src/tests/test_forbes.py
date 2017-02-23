@@ -52,11 +52,21 @@ def test_youngest_has_name(youngest):
 
 def test_oldest_has_industry(oldest):
     """Test the function returns a person with an industry."""
-    assert isinstance(oldest["name"], string_types)
-    assert len(oldest["name"]) > 2
+    assert isinstance(oldest["source"], string_types)
+    assert len(oldest["source"]) > 2
 
 
 def test_youngest_has_industry(youngest):
     """Test the function returns a person with an industry."""
-    assert isinstance(youngest["name"], string_types)
-    assert len(youngest["name"]) > 2
+    assert isinstance(youngest["source"], string_types)
+    assert len(youngest["source"]) > 2
+
+
+def test_oldest_has_net_worth(oldest):
+    """Test the function returns a person with a networth above a billion."""
+    assert int(oldest["net_worth (USD)"]) > 1000000000
+
+
+def test_youngest_has_net_worth(youngest):
+    """Test the function returns a person with a networth."""
+    assert int(youngest["net_worth (USD)"]) > 1000000000
