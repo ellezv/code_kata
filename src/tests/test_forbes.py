@@ -2,7 +2,8 @@
 
 import pytest
 import json
-with open('forbes.json') as data_file:
+from six import string_types
+with open('src/forbes.json') as data_file:
     DATA = json.load(data_file)
 
 
@@ -39,23 +40,23 @@ def test_get_youngest_valid_age(youngest):
 
 def test_oldest_has_name(oldest):
     """Test the function return the oldest billionaire's name."""
-    assert isinstance(oldest["name"], str)
+    assert isinstance(oldest["name"], string_types)
     assert len(oldest["name"]) > 2
 
 
 def test_youngest_has_name(youngest):
     """Test the function return the youngest billionaire's name."""
-    assert isinstance(youngest["name"], str)
+    assert isinstance(youngest["name"], string_types)
     assert len(youngest["name"]) > 2
 
 
 def test_oldest_has_industry(oldest):
     """Test the function returns a person with an industry."""
-    assert isinstance(oldest["name"], str)
+    assert isinstance(oldest["name"], string_types)
     assert len(oldest["name"]) > 2
 
 
 def test_youngest_has_industry(youngest):
     """Test the function returns a person with an industry."""
-    assert isinstance(youngest["name"], str)
+    assert isinstance(youngest["name"], string_types)
     assert len(youngest["name"]) > 2

@@ -14,7 +14,7 @@ def get_oldest_and_youngest(data):
     return [oldest_person, youngest_person]
 
 
-if __name__ == '__main__':  # pragma no-cover
+if __name__ == '__main__':  # pragma: no cover
     import json
     with open('forbes.json') as data_file:
         the_data = json.load(data_file)

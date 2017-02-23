@@ -22,7 +22,8 @@ setup(
         'lightsaber',
         'sum_terms',
         'proper_parenthetics',
-        'sort_cards'
+        'sort_cards',
+        'forbes'
     ],
     package_dir={'': 'src'},
     install_requires=['numpy'],
