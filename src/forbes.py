@@ -11,21 +11,23 @@ def get_oldest_and_youngest(data):
                 oldest_person = person
             if person['age'] < youngest_person['age']:
                 youngest_person = person
+    return [oldest_person, youngest_person]
+
+
+if __name__ == '__main__':  # pragma no-cover
+    import json
+    with open('forbes.json') as data_file:
+        the_data = json.load(data_file)
+
+    persons = get_oldest_and_youngest(the_data)
     output = """
     Oldest Billionaire is {}, {} $ net worth, {}.
     Youngest Billionaire is {}, {} $ net worth, {}.
     """.format(
-        oldest_person["name"],
-        oldest_person["net_worth (USD)"],
-        oldest_person["source"],
-        youngest_person["name"],
-        youngest_person["net_worth (USD)"],
-        youngest_person["source"])
-    return output
-
-
-if __name__ == '__main__':
-    import json
-    with open('forbes.json') as data_file:
-        the_data = json.load(data_file)
-    print(get_oldest_and_youngest(the_data))
+        persons[0]["name"],
+        persons[0]["net_worth (USD)"],
+        persons[0]["source"],
+        persons[1]["name"],
+        persons[1]["net_worth (USD)"],
+        persons[1]["source"])
+    print(output)
